@@ -26,7 +26,7 @@ function SponsorCard({ sponsor }: { sponsor: Sponsor }) {
       <a
         role="button"
         tabIndex={0}
-        className={cn(styles.card, {
+        className={cn(styles.card1, {
           [styles.diamond]: sponsor.tier === 'diamond',
           [styles.gold]: sponsor.tier === 'gold'
         })}

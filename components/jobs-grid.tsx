@@ -27,7 +27,7 @@ function CompanyJobs({ jobs }: Props) {
       {jobs.map(job => (
         <a
           key={job.id}
-          className={styles.card}
+          className={styles.card1}
           href={job.link}
           target="_blank"
           rel="noopener noreferrer"

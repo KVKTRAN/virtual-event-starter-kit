@@ -50,7 +50,7 @@ export default function TalkCard({ talk: { title, speaker, start, end }, showTim
       {showTime && <p className={styles.time}>{startAndEndTime || <>&nbsp;</>}</p>}
       <Link href={firstSpeakerLink}>
         <a
-          className={cn(styles.card, {
+          className={cn(styles.card1, {
             [styles['is-live']]: isTalkLive
           })}
         >
